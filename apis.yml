@@ -12,18 +12,16 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/confer.png
 name: Confer Technologies
-description: 'Confer Technologies, Inc. was an enterprise endpoint security company that marketed
-  what it called the "Converged Endpoint" — a single lightweight sensor combining attack prevention,
-  detection, and incident response across endpoints, servers, cloud workloads, and mobile devices.
-  The product gathered endpoint telemetry across the enterprise and applied data science to analyze
-  attacker behavior and adapt automatically, positioned as an EDR and next-generation antivirus
-  alternative for organizations without large security teams. Confer was venture-backed (Matrix Partners,
-  Foundation Capital) and raised roughly $17M before being acquired by Carbon Black in 2016. Its site at
-  confer.net began permanently redirecting to carbonblack.com by mid-2016 and the domain no longer
-  resolves to a host. Carbon Black was subsequently acquired by VMware (2019) and then by Broadcom (2023).
-  Confer never published a public developer portal, API documentation, or machine-readable API artifacts;
-  this profile is retained as a historical record of an acquired company and has no live API surface to
-  enrich.'
+description: Confer Technologies, Inc. was an enterprise endpoint security company that marketed what it called
+  the "Converged Endpoint" — a single lightweight sensor combining attack prevention, detection, and incident response
+  across endpoints, servers, cloud workloads, and mobile devices. The product gathered endpoint telemetry across
+  the enterprise and applied data science to analyze attacker behavior and adapt automatically, positioned as an
+  EDR and next-generation antivirus alternative for organizations without large security teams. Confer was venture-backed
+  (Matrix Partners, Foundation Capital) and raised roughly $17M before being acquired by Carbon Black in 2016. Its
+  site at confer.net began permanently redirecting to carbonblack.com by mid-2016 and the domain no longer resolves
+  to a host. Carbon Black was subsequently acquired by VMware (2019) and then by Broadcom (2023). Confer never published
+  a public developer portal, API documentation, or machine-readable API artifacts; this profile is retained as a
+  historical record of an acquired company and has no live API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/confer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -38,7 +36,7 @@ x-successor: https://www.broadcom.com/products/carbon-black
 x-defunct-domain: confer.net
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-08-21'
 tags:
 - Company
 - B2B
@@ -51,6 +49,12 @@ tags:
 - Defunct
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/carbon-black/
+  name: Carbon Black
+  x-relationship: acquisition
+  x-generated-by: broadcom-family:2026-08-21
+  x-acquired: 2016
 - type: Archive
   url: http://web.archive.org/web/20160329013100/https://www.confer.net/
 - type: Successor
@@ -65,5 +69,8 @@ x-enrichment:
   status: minimal
   artifacts_added: 0
   pass: local-v1
-  notes: 'Company is acquired/defunct; confer.net does not resolve and published no API surface.
-    No artifacts could be searched, generated, or derived without fabrication.'
+  notes: Company is acquired/defunct; confer.net does not resolve and published no API surface. No artifacts could
+    be searched, generated, or derived without fabrication.
+x-parent: carbon-black
+x-relationship: acquisition
+x-acquired: 2016
