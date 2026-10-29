@@ -1,4 +1,4 @@
-# Confer
+# Confer Technologies
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Confer is a company surfaced as a portfolio company of matrix-partners and added to the API Evangelist network as a stub for enrichment. Sector: b2b. This profile is a lead awaiting the enrichment pipeline.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: matrix-partners
+Confer Technologies, Inc. was an enterprise endpoint security company that marketed what it called the "Converged Endpoint" — a single lightweight sensor combining attack prevention, detection, and incident response across endpoints, servers, cloud workloads, and mobile devices. The product gathered endpoint telemetry across the enterprise and applied data science to analyze attacker behavior and adapt automatically, positioned as an EDR and next-generation antivirus alternative for organizations without large security teams. Confer was venture-backed (Matrix Partners, Foundation Capital) and raised roughly $17M before being acquired by Carbon Black in 2016. Its site at confer.net began permanently redirecting to carbonblack.com by mid-2016 and the domain no longer resolves to a host. Carbon Black was subsequently acquired by VMware (2019) and then by Broadcom (2023). Confer never published a public developer portal, API documentation, or machine-readable API artifacts; this profile is retained as a historical record of an acquired company and has no live API surface to enrich.
+
+**Areas:** Company · B2B · Security · Endpoint Security · Cybersecurity · Endpoint Detection and Response · Antivirus · Acquired · Defunct
+
+## Confer Technologies on APIs.io (historical record)
+
+Everything profiled for Confer Technologies is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/confer/](https://apis.io/providers/confer/)** — or go straight to one of the APIs or properties below.
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Confer Technologies: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/confer/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
